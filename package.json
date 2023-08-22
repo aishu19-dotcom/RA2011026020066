@@ -1,0 +1,42 @@
+{
+  "name": "ra2011026020066",
+  "version": "1.0.0",
+  "description": "afford medical frontend online test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aishu19-dotcom/RA2011026020066.git"
+  },
+  "keywords": [
+    "frontend",
+    "dev"
+  ],
+  "author": "A P Aishwarya Lakshmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aishu19-dotcom/RA2011026020066/issues"
+  },
+  "homepage": "https://github.com/aishu19-dotcom/RA201102 6020066#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.22.10",
+    "html-webpack-plugin": "^5.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "redux-store": "^0.0.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-webpack-plugin": "^0.1.2"
+  }
+}
